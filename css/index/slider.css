@@ -1,0 +1,21 @@
+/*index.html Main CSS*/
+
+.main-slider_img img{
+    width:200%;
+    margin-left:-50%;
+    margin-top:-60px;
+    background-repeat: no-repeat;
+}
+.arrow__wrap{
+    position: absolute;
+    top: 380px;
+    width:90%;
+    padding-left: 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow__wrap i{
+    color: #ffffff;
+    font-size:30px;
+}

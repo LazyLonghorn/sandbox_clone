@@ -1,0 +1,21 @@
+@import "reset.css";
+@import "./index/index.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800,800i&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/*GNB*/
+.gnb__container{
+    position: absolute;
+    display: block;
+    width: 100%;
+}
+.gnb__cont-box{
+    position: absolute;
+    width:0px;height:0px;
+}
+.gnb__menu i{
+    font-size:32px;
+    color:#ffffff;
+}

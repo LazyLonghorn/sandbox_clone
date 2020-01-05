@@ -1,0 +1,31 @@
+/*index.html Header*/
+
+header{
+    background: #2133B5;
+    height: 862px;  
+    z-index:-2;
+}
+header .cont-box:first-of-type{
+    top:0; left:0;
+    border-right:212px solid transparent; 
+    border-top:124px solid #D03251; 
+    z-index:-1;
+}
+header .cont-box:last-of-type{
+    right:0; bottom:0;
+    border-left:168px solid transparent; 
+    border-bottom:106px solid #FFC200; 
+}
+header .header__section{
+    width:83%;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__section img{
+    width:125px;
+    height: 16px;
+}
