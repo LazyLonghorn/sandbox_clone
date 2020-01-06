@@ -19,3 +19,17 @@
     font-size:32px;
     color:#ffffff;
 }
+.gnb__btn{
+    height: 42px;
+    line-height: 1em;
+    border: 1px solid #ffffff;
+    font-weight: 600; 
+    color:#ffffff;
+}
+.gnb__btn p{
+    position: absolute;
+    top:50%;
+    margin-top:-0.5em;
+    width:100%;
+    text-align: center;
+}

@@ -1,11 +1,4 @@
 /*index.html Main CSS*/
-
-.main-slider_img img{
-    width:200%;
-    margin-left:-50%;
-    margin-top:-60px;
-    background-repeat: no-repeat;
-}
 .arrow__wrap{
     position: absolute;
     top: 380px;
@@ -14,8 +7,44 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    z-index:3;
 }
 .arrow__wrap i{
     color: #ffffff;
     font-size:30px;
+}
+.main-slider_list{
+    position: relative;
+}
+.main-slider_img img{
+    width:200%;
+    margin-left:-50%;
+    margin-top:-60px;
+    background-repeat: no-repeat;
+}
+.main-slider_title{
+    position: absolute;
+    top:380px;
+    height: 100px;
+    font-weight: 800;
+    font-size:45px;
+    color:#E3114E;
+    margin-left: 45px;
+}
+.main-slider_sub{
+    position: absolute;
+    top:490px;
+    height: 69px;
+    font-weight: 800;
+    font-size:25px;
+    line-height: 35px;
+    color:#ffffff;
+    margin-left: 66px;
+}
+.main-slider_btn{
+    position: absolute;
+    top:582px;
+    width: 175px;
+    margin-left: 45px;
+    font-size:15px;
 }
