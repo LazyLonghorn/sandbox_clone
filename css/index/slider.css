@@ -1,4 +1,4 @@
-/*index.html Main CSS*/
+/*index.html Slider CSS*/
 .arrow__wrap{
     position: absolute;
     top: 380px;
@@ -16,15 +16,25 @@
 .main-slider_list{
     position: relative;
 }
-.main-slider_img img{
-    width:200%;
-    margin-left:-50%;
+.main-slider_img{
+    width : 100%;
     margin-top:-60px;
+    padding-bottom: 208%;
+    background-image: url(../../images/common/main_creator_img0.png);
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size: 210%;
+
+}
+.main-slider_img img{
+    width:100%;
+    transform: scale(2.0);
+    margin-top:190px;
     background-repeat: no-repeat;
 }
 .main-slider_title{
     position: absolute;
-    top:380px;
+    top:400px;
     height: 100px;
     font-weight: 800;
     font-size:45px;
@@ -33,7 +43,7 @@
 }
 .main-slider_sub{
     position: absolute;
-    top:490px;
+    top:510px;
     height: 69px;
     font-weight: 800;
     font-size:25px;
@@ -43,7 +53,7 @@
 }
 .main-slider_btn{
     position: absolute;
-    top:582px;
+    top:622px;
     width: 175px;
     margin-left: 45px;
     font-size:15px;

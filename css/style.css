@@ -7,9 +7,10 @@
 }
 /*GNB*/
 .gnb__container{
-    position: absolute;
+    position: relative;
     display: block;
     width: 100%;
+    padding-top: 30px;
 }
 .gnb__cont-box{
     position: absolute;
